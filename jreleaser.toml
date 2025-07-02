@@ -1,4 +1,5 @@
 [deploy.maven.mavenCentral.sonatype]
 active = "ALWAYS"
+sign = false
 url = "https://central.sonatype.com/api/v1/publisher"
 stagingRepositories = ["build/maven"]
